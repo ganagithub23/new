@@ -27,8 +27,6 @@ pipeline {
                     archiveArtifacts 'target/*.jar'
                 }
             }
-        }
-         stages {
         stage('Hello') {
             steps {
                 echo 'Hello World'
@@ -37,4 +35,3 @@ pipeline {
     }
           
    }
-}
